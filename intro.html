@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="icon" href="download.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    
+    <div class = "container">
+        <form  action=" " name="clc">
+           
+                <input type = "text" name = "display" style="width:500px;height:70px;text-align: center;margin-right:10px;margin-bottom: 20px;font-size: 50px;">
+            
+        
+        <input type = "button" value = "AC" id="c1" onclick="clc.display.value=''" style="width:210px;text-align: center;" >
+        
+        <input type = "button" value = "%" id="c3" onclick="clc.display.value +='%'">
+        <input type = "button" value = "/" id="c4" onclick="clc.display.value +='/'">
+        <br>
+        <input type = "button" value = "7" id="c5" onclick="clc.display.value +='7'">
+        <input type = "button" value = "8" id="c6" onclick="clc.display.value +='8'">
+        <input type = "button" value = "9" id="c7" onclick="clc.display.value +='9'">
+        <input type = "button" value = "*" id="c8" onclick="clc.display.value +='*'">
+        <br>
+        <input type = "button" value = "4" id="c9" onclick="clc.display.value +='4'">
+        <input type = "button" value = "5" id="c10" onclick="clc.display.value +='5'">
+        <input type = "button" value = "6" id="c11" onclick="clc.display.value +='6'">
+        <input type = "button" value = "-" id="c12" onclick="clc.display.value +='-'">
+        <br>
+        <input type = "button" value = "1" id="c13" onclick="clc.display.value +='1'">    
+        <input type = "button" value = "2" id="c14" onclick="clc.display.value +='2'">
+        <input type = "button" value = "3" id="c15" onclick="clc.display.value +='3'">
+        <input type = "button" value = "+" id="c16" onclick="clc.display.value +='+'">
+        <br>
+        <input type = "button" value = "0" id="c17" onclick="clc.display.value +='0'">
+        <input type = "button" value = "00" id="c18" onclick="clc.display.value +='00'">
+        <input type = "button" value = "." id="c19" onclick="clc.display.value +='.'">
+        <input type = "button" value = "="  id="c20" onclick="clc.display.value =eval(clc.display.value)">
+           
+        </form>
+    
+  
+
+</div>
+
+</body>
+ 
+</html>
